@@ -9,4 +9,7 @@ task 2 was simply adding the title to the html file.
 task 3 wanted a favicon to be added so in addition to that i added extra sizes since this could be viewed on different computers. Like a macbook. 
 I also used https://favicon.io/favicon-generator/ to create my favicon. 
 
-task 4
+task 4 is about meta data, in short meta data is like a hasthag on instagram but for search engines. I believe after some reading that it is best to keep the meta data short. 
+Keeping it short allows search engines to look for relevance rather than a bunch of text. Meanwhile not making it vague as well.
+
+task 5: 
