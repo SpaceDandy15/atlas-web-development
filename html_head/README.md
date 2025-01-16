@@ -13,4 +13,5 @@ task 4 is about meta data, in short meta data is like a hasthag on instagram but
 Keeping it short allows search engines to look for relevance rather than a bunch of text. Meanwhile not making it vague as well.
 
 task 5: task 5 is about well, me. task 5 makes use of the body and footer portions of the website which is the visible text a user can see.
-its very customizable thanks to all the text formatting eleme
+its very customizable thanks to all the text formatting element.
+task 6 wants me to create a second page using a navbar by adding it into index.html with a gallery html. 
