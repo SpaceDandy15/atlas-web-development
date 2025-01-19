@@ -16,3 +16,5 @@ task 5: task 5 is about well, me. task 5 makes use of the body and footer portio
 its very customizable thanks to all the text formatting element.
 
 task 6: wants me to create a second page using a navbar by adding it into index.html with a gallery html. 
+
+Task 7: wants me to make my two pages prettier and more interactive using css. 
