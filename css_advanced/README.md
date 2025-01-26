@@ -1,0 +1,1 @@
+In this project I will be using css to make my html look pretty. So I will be adding skin and clothing to the bone structure of my html. 
