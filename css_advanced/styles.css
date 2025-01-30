@@ -1,0 +1,78 @@
+/* Header Styling */
+header {
+    background-image: url('images/background.jpg'); /* Your background image */
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Ensure the section fills the screen */
+    display: flex;
+    align-items: flex-start; /* Align items to the top (not the center) */
+    justify-content: space-between; /* Space out the logo and navigation links */
+    padding: 20px;
+}
+
+/* Logo Styling */
+header img {
+    width: 150px; /* Adjust based on your Figma logo size */
+    height: auto;
+}
+
+/* Navigation Styling */
+nav {
+    display: flex;
+    align-items: center; /* Vertically center the navigation items */
+}
+
+nav a {
+    text-decoration: none;
+    color: white ; /* Change to any color that stands out on the background */
+    margin: 0 15px; /* Space out the navigation items */
+    font-size: 16px; /* Adjust as needed */
+}
+
+/* Navigation Styling links */
+nav {
+    display: flex; /* Arrange links in a row */
+    align-items: center; /* Center links vertically */
+    margin-left: auto; /* Push links to the right side */
+}
+
+/* First Section Styling */
+/* Content container for centering elements */
+section .content {
+    text-align: center;
+}
+
+/* Styling for the "Get schooled" heading */
+section h1 {
+    font-size: 3rem; /* Adjust the size as needed */
+    margin-bottom: 20px;
+}
+
+/* Flexbox for the "SMILES", "GRIN", "LAUGH" */
+.sub-text {
+    display: flex;
+    justify-content: center; /* Centers the items horizontally */
+    gap: 20px; /* Space between the texts */
+}
+
+/* Styling for the individual texts (SMILES, GRIN, LAUGH) */
+.sub-text p {
+    font-size: 1.5rem;
+}
+
+/* Styling for the button */
+section button {
+    background-color:7BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+section button:hover {
+    background-color: #0056b3;
+}
