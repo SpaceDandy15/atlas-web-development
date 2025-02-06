@@ -65,7 +65,7 @@
                 <img src="images/profile_5.jpg" alt="Image" class="testimonial-img">
                 <div class="testimonial-text">
                     <blockquote class="testimonial-quote">
-                        "Those tutorials are concise and go straight to the point. I can't think of a better place to learn smiling. And it's so fun!"
+                        «Those tutorials are concise and go straight to the point. I can't think of a better place to learn smiling. And it's so fun!"
                     </blockquote>
                     <p class="testimonial-name">Person Name</p>
                     <p class="testimonial-role">weather presenter</p>
@@ -73,10 +73,14 @@
             </div>
         </section>
         <section class="tutorials-section">
-            <h1>Most popular tutorials</h1>
+            <h1>Most <span class="popular">popular</span> tutorials</h1>
             <div class="tutorials-container">
+                <!-- Tutorial Item 1 -->
                 <div class="tutorial-item">
-                    <img src="images/Diag_smile.jpg" alt="Diagonal Smile tutorial" class="tutorial-img">
+                    <div class="image-wrapper">
+                        <img src="images/Diag_smile.jpg" alt="Diagonal Smile tutorial" class="tutorial-img">
+                        <img src="images/play.png" alt="Play Button" class="play-btn">
+                    </div>
                     <h2 class="tutorial-title">Diagonal Smile</h2>
                     <p class="tutorial-desc">Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.</p>
                     <div class="author-info">
@@ -95,8 +99,12 @@
                     </div>
                 </div>
         
+                <!-- Tutorial Item 2 -->
                 <div class="tutorial-item">
-                    <img src="images/Sad_Smile.jpg" alt="Sad Smile tutorial" class="tutorial-img">
+                    <div class="image-wrapper">
+                        <img src="images/Sad_Smile.jpg" alt="Sad Smile tutorial" class="tutorial-img">
+                        <img src="images/play.png" alt="Play Button" class="play-btn">
+                    </div>
                     <h2 class="tutorial-title">Sad Smile</h2>
                     <p class="tutorial-desc">Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.</p>
                     <div class="author-info">
@@ -115,8 +123,12 @@
                     </div>
                 </div>
         
+                <!-- Tutorial Item 3 -->
                 <div class="tutorial-item">
-                    <img src="images/Natural_Smile.jpg" alt="Natural Smile tutorial" class="tutorial-img">
+                    <div class="image-wrapper">
+                        <img src="images/Natural_Smile.jpg" alt="Natural Smile tutorial" class="tutorial-img">
+                        <img src="images/play.png" alt="Play Button" class="play-btn">
+                    </div>
                     <h2 class="tutorial-title">Natural Smile</h2>
                     <p class="tutorial-desc">Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.</p>
                     <div class="author-info">
@@ -135,8 +147,12 @@
                     </div>
                 </div>
         
+                <!-- Tutorial Item 4 -->
                 <div class="tutorial-item">
-                    <img src="images/Happy_Smile.jpg" alt="Happy Smile tutorial" class="tutorial-img">
+                    <div class="image-wrapper">
+                        <img src="images/Happy_Smile.jpg" alt="Happy Smile tutorial" class="tutorial-img">
+                        <img src="images/play.png" alt="Play Button" class="play-btn">
+                    </div>
                     <h2 class="tutorial-title">Happy Smile</h2>
                     <p class="tutorial-desc">Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.</p>
                     <div class="author-info">
@@ -156,6 +172,7 @@
                 </div>
             </div>
         </section>
+        
         <section class="membership-section">
             <h1>Free Membership</h1>
             <div class="membership-container">
@@ -209,25 +226,33 @@
             </div>
         </section>
     </main>
+    <section>
+    </main>
     <footer>
-  <div class="footer-block">
-    <a href="#">
-      <img src="path_to_image" alt="Footer Image" />
-    </a>
+        <div class="footer-block">
+            <!-- Logo on the left -->
+            <a href="#">
+                <img src="images/Logo.png" alt="Logo" class="logo">
+            </a>
+            
+            <!-- Social Media Icons on the right -->
+            <div class="footer-social">
+                <a href="#">
+                    <img src="images/Facebook.png" alt="Facebook" class="footer-social-img"/>
+                </a>
+                <a href="#">
+                    <img src="images/Twitter.png" alt="Twitter" class="footer-social-img"/>
+                </a>
+                <a href="#">
+                    <img src="images/Instagram.png" alt="Instagram" class="footer-social-img"/>
+                </a>
+            </div>
+        </div>
 
-    <div class="footer-content">
-      <a href="#">
-        <img src="path_to_image_1" alt="Image 1" />
-      </a>
-      <a href="#">
-        <img src="path_to_image_2" alt="Image 2" />
-      </a>
-      <a href="#">
-        <img src="path_to_image_3" alt="Image 3" />
-      </a>
-      
-      <p>Text</p>
-    </div>
-  </div>
-</footer>
-</html>
+        <!-- Copyright Text -->
+        <p class="footer-text">© Smileschool 2020</p>
+    </footer>
+</section>
+
+    </html>
+    

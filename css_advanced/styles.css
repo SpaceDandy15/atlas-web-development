@@ -222,6 +222,7 @@ section {
     margin-bottom: 0;
 }
 
+/* General Styles */
 .tutorials-section {
     text-align: center;
     margin: 50px 0;
@@ -304,6 +305,44 @@ section {
     color: #777;
     margin-left: 10px;
 }
+
+/* Typography for 'Most Popular Tutorials' */
+.tutorials-section h1 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 40.22px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+/* Capitalizing 'Most' */
+.tutorials-section .most {
+    text-transform: capitalize; /* Ensures 'Most' is capitalized */
+}
+
+/* Specific styling for the word 'Popular' */
+.tutorials-section .popular {
+    color: #C271FF; /* Purple color for 'Popular' */
+}
+
+/* Positioning play button */
+.image-wrapper {
+    position: relative;
+}
+
+.play-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    z-index: 1;
+}
+
 .membership-section {
     background-color: #071629;
     text-align: center;
@@ -400,4 +439,34 @@ section {
     font-size: 14px;
     color: #555;
     text-align: justify;
+}
+footer {
+    background-color: #071629; /* Dark blue background for footer */
+    color: white; /* White text color */
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.footer-block {
+    display: flex;
+    justify-content: space-between; /* Makes sure content is spread out */
+    align-items: center; /* Vertically center-align the content */
+    max-width: 1200px; /* Optional: max width to prevent stretching */
+    margin: 0 auto; /* Center the block */
+}
+
+.logo {
+    width: 120px; /* Adjust the size of the logo */
+    height: auto;
+}
+
+.footer-social-img {
+    width: 30px; /* Set size for the social media icons */
+    height: auto;
+    margin-left: 20px; /* Adds space between social media icons */
+}
+
+.footer-block a {
+    display: inline-block; /* Prevents icons from stacking */
+    text-decoration: none; /* Removes underline from links */
 }
