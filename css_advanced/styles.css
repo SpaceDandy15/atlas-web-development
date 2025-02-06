@@ -3,6 +3,19 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
+/* Background Styling */
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1440px;
+    height: 1093px;
+    gap: 0px;
+    background-image: url('images/background.jpg'); 
+    background-size: cover;
+    background-position: center;
+}
+
 /* Header Styling */
 header {
     background-image: url('images/background.jpg');
@@ -22,13 +35,38 @@ header .logo-link {
     display: flex;
     align-items: center;
     position: absolute;
-    top: 20px;
-    left: 20px;
+    top: 35.02px;
+    left: 171.59px;
+    width: 167.02px;
+    height: 29.46px;
+    gap: 0px;
 }
 
 header .logo-link img {
-    width: 150px;
+    width: 100%;
     height: auto;
+}
+
+/* Course Pricing and Login Section Styling */
+header .course-login {
+    position: absolute;
+    top: 37px;
+    left: 1041px;
+    width: 234px;
+    height: 15px;
+    gap: 0px;
+    opacity: 0;
+}
+
+/* "Get schooled" Section Styling */
+header .get-schooled {
+    position: absolute;
+    top: 220px;
+    left: 377px;
+    width: 684px;
+    height: 151px;
+    gap: 0px;
+    opacity: 0;
 }
 
 /* Navigation Styling */
@@ -51,10 +89,6 @@ nav a {
     margin: 0 15px;
     font-size: 1.2rem;
     text-decoration: none;
-}
-
-nav a:hover {
-    color: purple;
 }
 
 /* Hero Section Styling */
@@ -319,12 +353,12 @@ section {
 
 /* Capitalizing 'Most' */
 .tutorials-section .most {
-    text-transform: capitalize; /* Ensures 'Most' is capitalized */
+    text-transform: capitalize;
 }
 
 /* Specific styling for the word 'Popular' */
 .tutorials-section .popular {
-    color: #C271FF; /* Purple color for 'Popular' */
+    color: #C271FF;
 }
 
 /* Positioning play button */
@@ -395,8 +429,8 @@ section {
     display: block;
     margin: 15px auto 0;
     padding: 10px 20px;
-    background-color: #4CAF50;
-    color: white;
+    background-color:#C271FF ;
+    color:white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
