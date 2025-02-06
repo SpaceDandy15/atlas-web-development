@@ -1,68 +1,96 @@
+/* Global font family */
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
 /* Header Styling */
 header {
-    background-image: url('images/background.jpg'); /* Your background image */
+    background-image: url('images/background.jpg');
     background-size: cover;
     background-position: center;
-    height: 100vh; /* Ensure the section fills the screen */
+    height: 100vh;
     display: flex;
-    align-items: flex-start; /* Align items to the top (not the center) */
-    justify-content: space-between; /* Space out the logo and navigation links */
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
     padding: 20px;
+    position: relative;
 }
 
 /* Logo Styling */
-header img {
-    width: 150px; /* Adjust based on your Figma logo size */
+header .logo-link {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+header .logo-link img {
+    width: 150px;
     height: auto;
 }
 
 /* Navigation Styling */
 nav {
     display: flex;
-    align-items: center; /* Vertically center the navigation items */
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 20px 0;
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 10;
 }
 
+/* Navigation links or items */
 nav a {
+    color: white;
+    margin: 0 15px;
+    font-size: 1.2rem;
     text-decoration: none;
-    color: white ; /* Change to any color that stands out on the background */
-    margin: 0 15px; /* Space out the navigation items */
-    font-size: 16px; /* Adjust as needed */
 }
 
-/* Navigation Styling links */
-nav {
-    display: flex; /* Arrange links in a row */
-    align-items: center; /* Center links vertically */
-    margin-left: auto; /* Push links to the right side */
+nav a:hover {
+    color: purple;
 }
 
-/* First Section Styling */
-/* Content container for centering elements */
-section .content {
+/* Hero Section Styling */
+.hero-section {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
     text-align: center;
 }
 
 /* Styling for the "Get schooled" heading */
 section h1 {
-    font-size: 3rem; /* Adjust the size as needed */
+    font-size: 3rem;
     margin-bottom: 20px;
 }
 
-/* Flexbox for the "SMILES", "GRIN", "LAUGH" */
+/* Flexbox for "SMILES, GRIN, LAUGH" */
 .sub-text {
     display: flex;
-    justify-content: center; /* Centers the items horizontally */
-    gap: 20px; /* Space between the texts */
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
 }
 
-/* Styling for the individual texts (SMILES, GRIN, LAUGH) */
 .sub-text p {
     font-size: 1.5rem;
 }
 
 /* Styling for the button */
 section button {
-    background-color:7BFF;
+    background-color: purple;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -73,6 +101,303 @@ section button {
     transition: background-color 0.3s ease;
 }
 
-section button:hover {
-    background-color: #0056b3;
+/* Styling for profile container */
+.pro-container {
+    text-align: center;
+    margin-top: 60px;
+    width: 100%;
+}
+
+/* Profile wrapper */
+.pro-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* Individual profile */
+.pro-wrapper div {
+    text-align: center;
+}
+
+/* Circular images */
+.pro-wrapper img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Center profile container */
+.pro-container {
+    text-align: center;
+    width: 100%;
+}
+
+.pro-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    max-width: 900px;
+}
+
+/* Individual profile items */
+.pro-item {
+    text-align: center;
+    width: 200px; /* Ensure uniform size */
+}
+
+/* Style profile images */
+.pro-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Testimonial Section */
+.testimonial-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+    background-color: #c271ff;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.testimonial-item {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    max-width: 900px;
+    width: 100%;
+}
+
+.testimonial-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: none;
+}
+
+.testimonial-text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: white;
+}
+
+.testimonial-quote {
+    font-size: 1.2rem;
+    font-style: italic;
+    color: white;
+    line-height: 1.5;
+    position: relative;
+}
+
+.testimonial-name {
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.testimonial-role {
+    color: #ddd;
+    font-size: 1rem;
+    margin-top: 5px;
+}
+
+section {
+    margin: 0;
+    padding: 0;
+}
+
+.testimonial-section, .hero-section {
+    margin-bottom: 0;
+}
+
+.tutorials-section {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.tutorials-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.tutorial-item {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    text-align: left;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.tutorial-img {
+    width: 100%;
+    border-radius: 10px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.tutorial-title {
+    margin-top: 10px;
+    text-align: left;
+}
+
+.tutorial-desc {
+    font-size: 14px;
+    color: #555;
+    text-align: left;
+}
+
+.author-info {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.author-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.author-name {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0;
+    white-space: nowrap;
+}
+
+.rating-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 5px;
+}
+
+.rating {
+    display: flex;
+}
+
+.star-img {
+    width: 15px;
+    height: auto;
+}
+
+.duration {
+    font-size: 12px;
+    color: #777;
+    margin-left: 10px;
+}
+.membership-section {
+    background-color: #071629;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.membership-section h1 {
+    font-size: 36px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.membership-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.membership-item {
+    background-color: #071629;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    text-align: left;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.membership-img {
+    width: 257px;
+    border-radius: 10px;
+}
+
+.membership-title {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.membership-desc {
+    font-size: 14px;
+    color: #bbb;
+}
+
+.register-btn {
+    display: block;
+    margin: 15px auto 0;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.faq-section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.faq-section h1 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 40px;
+}
+
+.faq-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+    margin: 0 20px;
+}
+
+.faq-item {
+    width: 45%;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: left;
+}
+
+.faq-question {
+    font-size: 20px;
+    font-weight: bold;
+    color: #071629;
+    margin-bottom: 10px;
+}
+
+.faq-answer {
+    font-size: 14px;
+    color: #555;
+    text-align: justify;
 }
