@@ -1,6 +1,7 @@
 /* Global font family */
 body {
     font-family: 'Source Sans Pro', sans-serif;
+    color: white;
 }
 
 /* Background Styling */
@@ -11,7 +12,8 @@ body {
     width: 1440px;
     height: 1093px;
     gap: 0px;
-    background-image: url('images/background.jpg'); 
+    opacity: 0;
+    background-image: url('images/background.jpg');
     background-size: cover;
     background-position: center;
 }
@@ -28,6 +30,7 @@ header {
     align-items: center;
     padding: 20px;
     position: relative;
+    color: white;
 }
 
 /* Logo Styling */
@@ -40,6 +43,8 @@ header .logo-link {
     width: 167.02px;
     height: 29.46px;
     gap: 0px;
+    opacity: 1;
+    color: white;
 }
 
 header .logo-link img {
@@ -56,6 +61,7 @@ header .course-login {
     height: 15px;
     gap: 0px;
     opacity: 0;
+    color: white;
 }
 
 /* "Get schooled" Section Styling */
@@ -67,6 +73,7 @@ header .get-schooled {
     height: 151px;
     gap: 0px;
     opacity: 0;
+    color: white;
 }
 
 /* Navigation Styling */
@@ -81,6 +88,7 @@ nav {
     top: 0;
     right: 0;
     z-index: 10;
+    color: white;
 }
 
 /* Navigation links or items */
@@ -89,6 +97,54 @@ nav a {
     margin: 0 15px;
     font-size: 1.2rem;
     text-decoration: none;
+}
+
+/* Hero Section Styling */
+.hero-section {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+/* Styling for the "Get schooled" heading */
+section h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: white;
+}
+
+/* Flexbox for "SMILES, GRIN, LAUGH" */
+.sub-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    color: white;/
+}
+
+.sub-text p {
+    font-size: 1.5rem;
+    color: white;
+}
+
+/* Styling for the button */
+section button {
+    background-color: purple;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
 }
 
 /* Hero Section Styling */
