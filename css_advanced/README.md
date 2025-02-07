@@ -3,3 +3,5 @@ Nice thing I have noticed while bouncing back in forth between html and css is t
 
 
 https://spacedandy15.github.io/atlas-web-development/css_advanced/
+
+always watch for how you name things and double read the little things like repo names
