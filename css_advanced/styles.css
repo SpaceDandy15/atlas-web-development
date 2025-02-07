@@ -410,17 +410,47 @@ section {
     text-decoration-skip-ink: none;
 }
 
-/* Capitalizing 'Most' */
+}
+.tutorials-section h1 {
+    color: black;
+}
+
+/* Most */
 .tutorials-section .most {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 40.22px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: black;
     text-transform: capitalize;
 }
 
-/* Specific styling for the word 'Popular' */
+/* Popular */
 .tutorials-section .popular {
-    color: #C271FF;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40.22px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #C271FF; /* Purple */
 }
 
-/* Positioning play button */
+.tutorials-section .tutorials {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 40.22px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: black;
+}
+
 .image-wrapper {
     position: relative;
 }
@@ -445,7 +475,11 @@ section {
 .membership-section h1 {
     font-size: 36px;
     color: #fff;
-    margin-bottom: 30px;
+    margin-bottom: 30px;.purple-text {
+        color:#C271FF
+    }
+    
+
 }
 
 .membership-container {
@@ -471,6 +505,10 @@ section {
 .membership-img {
     width: 257px;
     border-radius: 10px;
+    height: 153px;
+    top: 168px;
+    left: 164px;
+    gap: 0px;
 }
 
 .membership-title {
