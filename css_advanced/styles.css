@@ -12,14 +12,14 @@ body {
     height: 1093px;
     gap: 0px;
     opacity: 0;
-    background-image: url('images/background.jpg');
+    background-image: url('Images/background.jpg');
     background-size: cover;
     background-position: center;
 }
 
 /* Header Styling */
 header {
-    background-image: url('images/background.jpg');
+    background-image: url('Images/background.jpg');
     background-size: cover;
     background-position: center;
     height: 100vh;
